@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/main_style.css" />
+    <link rel="stylesheet" href="assets/css/media_query.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/login_register.css" />
+    <title>Muradi Login</title>
+  </head>
+  <body>
+    <header>
+      <div id="sub_header">
+        <div class="sub_menus">
+          <ul>
+            <li><a href="">Save more on app</a></li>
+            <li><a href="">Sell on dmart</a></li>
+            <li><a href="">Costumer care</a></li>
+            <li><a href="">Track my order</a></li>
+            <li><a href="">login</a></li>
+            <li><a href="">Signup</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="main_header">
+        <nav>
+          <ul>
+            <li>
+              <a class="company-logo" href="">
+                <img
+                  src="https://laz-img-cdn.alicdn.com/images/ims-web/TB1HKyxaMFY.1VjSZFqXXadbXXa.png"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li>
+              <div class="search_wrap">
+                <div class="search_box">
+                  <input
+                    type="text"
+                    class="search_input"
+                    placeholder="Search......."
+                  />
+                  <div class="search-box_button">
+                    <ion-icon
+                      class="search_ico"
+                      name="search-outline"
+                    ></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href=""><ion-icon name="cart-outline"></ion-icon></a>
+            </li>
+            <li>
+              <a class="our-wallet" href=""
+                ><img
+                  src="https://laz-img-cdn.alicdn.com/images/ims-web/TB19FLZi8r0gK0jSZFnXXbRRXXa.png"
+                  alt=""
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container_login">
+      <div class="login_Title">
+        <h1>Welcome to Muradi! Please login.</h1>
+
+        <div class="login_others">
+          <span>New member? <a href="">Register</a> here.</span>
+        </div>
+      </div>
+      <form action="">
+        <div class="login_module">
+          <div class="login_modul_col1">
+            <div class="modul_input modul-input-loginName">
+              <label class="required_input">Phone Number or Email</label
+              ><input
+                type="text"
+                placeholder="Please enter your Phone Number or Email"
+                value=""
+                required
+              />
+            </div>
+            <div class="modul_input modul-input-password">
+              <label class="required_input">Password</label>
+              <input
+                type="password"
+                placeholder="Please enter your Password"
+                value=""
+                required
+              />
+
+              <div class="mod-input-password-icon">
+                <ion-icon name="eye-outline"></ion-icon>
+              </div>
+            </div>
+            <div class="forgot_psw align-end">
+              <a href="">Forgot Password?</a>
+            </div>
+          </div>
+          <div class="login_modul_col2">
+            <div class="muradi_login_modul-btn">
+              <button type="submit" class="muradi_login-btn mod-button">
+                LOGIN
+              </button>
+            </div>
+            <div class="modul-login-others">
+              <div class="modul-login-others-line">
+                <span>Or, login with</span>
+              </div>
+              <div class="mod-third-party-login-bd">
+                <button class="mod-button modul_login_fb-btn">
+                  <ion-icon class="btn-ico" name="logo-facebook"></ion-icon
+                  >Facebook
+                </button>
+                <button class="mod-button modul_login_google-btn">
+                  <ion-icon class="btn-ico" name="logo-google"></ion-icon>Google
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+</html>

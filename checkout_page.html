@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="product_style.css" />
+    <link rel="stylesheet" href="cart.css" />
+    <link rel="stylesheet" href="checkout_page.css" />
+    <link rel="stylesheet" href="assets/css/main_style.css" />
+    <link rel="stylesheet" href="assets/css/media_query.css" />
+    <!-- <link rel="stylesheet" href="login.css" /> -->
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div id="sub_header">
+        <div class="sub_menus">
+          <ul>
+            <li><a href="">Save more on app</a></li>
+            <li><a href="">Sell on dmart</a></li>
+            <li><a href="">Costumer care</a></li>
+            <li><a href="">Track my order</a></li>
+            <li><a href="">login</a></li>
+            <li><a href="">Signup</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="main_header">
+        <nav>
+          <ul>
+            <li>
+              <a class="company-logo" href="">
+                <img
+                  src="https://laz-img-cdn.alicdn.com/images/ims-web/TB1HKyxaMFY.1VjSZFqXXadbXXa.png"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li>
+              <div class="search_wrap">
+                <div class="search_box">
+                  <input
+                    type="text"
+                    class="search_input"
+                    placeholder="Search......."
+                  />
+                  <div class="search-box_button">
+                    <ion-icon
+                      class="search_ico"
+                      name="search-outline"
+                    ></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href=""><ion-icon name="cart-outline"></ion-icon></a>
+            </li>
+            <li>
+              <a class="our-wallet" href=""
+                ><img
+                  src="https://laz-img-cdn.alicdn.com/images/ims-web/TB19FLZi8r0gK0jSZFnXXbRRXXa.png"
+                  alt=""
+              /></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div id="muradi_cart">
+      <section>
+        <div class="cart_container">
+          <div class="cart_left delivery_form-back">
+            <div class="delivery_form-title">Delivery Information</div>
+            <div class="delivery_user_info delivery-form">
+              <form
+                action="
+                
+                "
+              >
+                <div class="delivery_form-container">
+                  <div class="delivery_form-left">
+                    <div class="modul_input modul-input-loginName">
+                      <label class="required_input">Full name</label
+                      ><input
+                        class="input-text"
+                        type="text"
+                        placeholder="First Last"
+                        value=""
+                        required
+                      />
+                    </div>
+                    <div class="modul_input modul-input-loginName">
+                      <label class="required_input">Phone Number</label
+                      ><input
+                        class="input-text"
+                        type="tel"
+                        placeholder="Please enter your Phone Number"
+                        value=""
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="delivery_form-right">
+                    <div class="modul_input modul-input-loginName">
+                      <label class="required_input">Address</label
+                      ><input
+                        class="input-text"
+                        type="tel"
+                        placeholder="Please enter your Address"
+                        value=""
+                        required
+                      />
+                    </div>
+                    <div class="modul_input modul-input-loginName">
+                      <label class="required_input">State</label>
+                      <select name="" id="">
+                        <option value="" disabled selected hidden>
+                          Please choose your province
+                        </option>
+                      </select>
+                    </div>
+                    <div class="modul_input modul-input-loginName">
+                      <label class="required_input">City</label>
+                      <select name="" id="">
+                        <option value="" disabled selected hidden>
+                          Please choose your district
+                        </option>
+                      </select>
+                    </div>
+                    <div class="modul_input modul-input-loginName">
+                      <label class="required_input">Postcode</label>
+                      <select name="" id="">
+                        <option value="" disabled selected hidden>
+                          Please choose your Postcode
+                        </option>
+                      </select>
+                    </div>
+                    <div class="modul_input modul-input-loginName">
+                      <label class="required_input"
+                        >Select a label for effective delivery:</label
+                      >
+
+                      <label
+                        for="delivery_place1"
+                        id="select"
+                        class="checkout_place-checkbox"
+                      >
+                        <input
+                          class="place_checkbox-office"
+                          type="checkbox"
+                          aria-checked="false"
+                          value="Office"
+                          onclick=""
+                          id="delivery_place1"
+                        />
+                        OFFICE
+                      </label>
+                      <label
+                        for="delivery_place2"
+                        id="select"
+                        class="checkout_place-checkbox"
+                      >
+                        <input
+                          class="place_checkbox-home"
+                          type="checkbox"
+                          aria-checked="false"
+                          value="Home"
+                          onclick=""
+                          id="delivery_place2"
+                          checked
+                        />
+                        HOME
+                      </label>
+                    </div>
+                    <a class="default-btn save_md-btn blue-btn" href="">SAVE</a>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div id="shop0003" class="checkout_shop-item">
+              <div class="checkout_shop-title">
+                <div class="checkout_shop_title-left">
+                  <span>Package 1 of 2</span>
+                </div>
+                <div class="pakage_shop_title-right">
+                  <span class="package-title-tips">Shipped by</span>
+                  <span class="package-title-brand">LiJian</span>
+                </div>
+              </div>
+              <div class="delivery-item_content-box">
+                <p class="delivery-item-title">Select your delivery option</p>
+                <div class="delivery-item_box">
+                  <div class="delivery-item-box_price">
+                    <div class="muradi-succes_ico">
+                      <ion-icon
+                        name="checkmark-circle"
+                        role="img"
+                        class="md hydrated"
+                        aria-label="checkmark circle"
+                      ></ion-icon>
+                    </div>
+                    <div class="delivery-item_price">
+                      <span class="delivery-item_current-price">RM3.00</span>
+                    </div>
+                  </div>
+                  <p class="delivery-item_para delivery-item_method">
+                    Standard Delivery
+                  </p>
+                  <p class="delivery-item_para delivery-item-time">
+                    Est. Arrival:<span>10-21 Feb</span>
+                  </p>
+                </div>
+              </div>
+              <div class="checkout_item-details">
+                <figure>
+                  <a href="">
+                    <div class="checkout_product-img">
+                      <img
+                        src="https://my-live.slatic.net/p/ee10f326480913053d20cfed1bd67544.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </a>
+                  <figcaption>
+                    <a href="" class="checkout_product-title">
+                      <div class="checkout_banner-img">
+                        <img
+                          src="https://img.alicdn.com/tfs/TB1hOuhB7T2gK0jSZFkXXcIQFXa-168-48.png"
+                          alt=""
+                        />
+                      </div>
+                      CATE MALL UK Wall Charger USB Adapter 4 Muti Port 5.1A
+                      Fast Charging Station Power Charge
+                    </a>
+                    <a href="" class="checkout_product-sub-title"
+                      >OEM, Color Family:White, Brand Compatibility:Universal</a
+                    >
+                  </figcaption>
+                </figure>
+
+                <div class="checkout-middle_item">
+                  <p class="checkout_item-price">RM6.99</p>
+                  <div class="checkout_item-operators">
+                    <ion-icon
+                      class="trash_ico md hydrated"
+                      name="trash-outline"
+                      role="img"
+                      aria-label="trash outline"
+                    ></ion-icon>
+                  </div>
+                </div>
+
+                <div class="checkout-right_item">
+                  <div class="product_select_body">
+                    <span class="item-quantity">Qty: </span>
+                    <span class="item-quantity-value">1</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cart_right">
+            <div class="cart_summary">
+              <button type="button" class="checkout-btn large-btn">
+                PLACE ORDER
+              </button>
+
+              <div class="cart_summary-content payment_mehthod-checkbox">
+                <div class="location_label">Select Payment Method</div>
+                <div class="current_location">
+                  <div
+                    class="product_delivery_selector-container active_product_delivery"
+                  >
+                    <div class="product_delivery_selector_icon">
+                      <div
+                        class="muradi-succes_ico product_select_delivery_icon"
+                      >
+                        <ion-icon name="cash-outline"></ion-icon>
+                      </div>
+                      <div class="product-select_icon_text">
+                        <span class="section-title">Cash On Delivery</span>
+                      </div>
+                      <div
+                        class="muradi-succes_ico product-select_icon_details"
+                      >
+                        <ion-icon name="checkmark-circle"></ion-icon>
+                      </div>
+                    </div>
+                    <div class="card-footer active_product_delivery-footer">
+                      <div class="card-footer-left">
+                        <p class="card-description-head-text">
+                          Pay when you receive
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product_delivery_selector-container">
+                    <div class="product_delivery_selector_icon">
+                      <div
+                        class="muradi-succes_ico product_select_delivery_icon"
+                      >
+                        <ion-icon name="card-outline"></ion-icon>
+                      </div>
+                      <div class="product-select_icon_text">
+                        <span class="section-title">Credit/Debit Card</span>
+                      </div>
+                      <div
+                        class="muradi-succes_ico product-select_icon_details"
+                      >
+                        <ion-icon name="ellipse-outline"></ion-icon>
+                      </div>
+                    </div>
+                    <div class="card-footer">
+                      <div class="card-footer-left">
+                        <p class="card-description-head-text">
+                          Tap to add card
+                        </p>
+                      </div>
+                      <div class="card-footer-right">
+                        <img
+                          src="https://laz-img-cdn.alicdn.com/tfs/TB1A5YFocLJ8KJjy0FnXXcFDpXa-80-80.png"
+                        /><img
+                          src="https://laz-img-cdn.alicdn.com/tfs/TB1sH7_bxrI8KJjy0FpXXb5hVXa-80-80.png"
+                        /><img
+                          src="https://laz-img-cdn.alicdn.com/tfs/TB1RI0cbLDH8KJjy1XcXXcpdXXa-80-80.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cart_summary">
+              <div class="order_summary_heading">Order Summary</div>
+              <div class="cart_summary-content order-summary">
+                <div class="cart_summary-row summary_row-space">
+                  <div class="cart_summary-label summary_left-text">
+                    Subtotal (1 items)
+                  </div>
+                  <div class="cart_summary-value summary_right-text">
+                    RM6.99
+                  </div>
+                </div>
+
+                <div class="cart_summary-row summary_row-space">
+                  <div class="cart_summary-label summary_left-text">
+                    Shipping Fee
+                  </div>
+                  <div class="cart_summary-value summary_right-text">
+                    RM3.00
+                  </div>
+                </div>
+                <div class="voucher_container summary_row-space">
+                  <span>
+                    <input
+                      class="voucher-input"
+                      type="text"
+                      placeholder="Enter Voucher Code"
+                    />
+                  </span>
+                  <a class="voucher_input-btn voucher_sm_btn" href="">APPLY</a>
+                </div>
+                <div class="cart_summary-row">
+                  <div class="cart_summary-label total_head">Total</div>
+                  <div class="cart_summary-value total_val">RM9.99</div>
+                </div>
+                <div class="GST_tax_value align-end">
+                  <small class="cart-order-total-fee-tip">0% GST</small>
+                </div>
+                <button type="button" class="checkout-btn large-btn">
+                  PLACE ORDER
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+</html>

@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* CSS Reset */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+:root {
+  /*------------ rem value pick from here--------------*/
+  /* slider color */
+  --clr-slider1: #01babd;
+  --clr-slider2: #019116;
+  --clr-slider3: #f60033;
+  /* slider color end*/
+  /* tab color */
+  --clr-one: #ecf5f8;
+  --clr-two: #f8f1ea;
+  --clr-three: #f9ebea;
+  --clr-four: #f2eee9;
+  /* tab color end*/
+
+  font-size: 62.5%;
+  /* Default color variables */
+
+  --clr-primary: #f57224;
+  --clr-primary-hover: #d0611e;
+  --clr-light: #ffffff;
+  --clr-secondary: #2a2a2a;
+
+  --clr-yellow: #ffb916;
+  --clr-green: #88ce02;
+  --clr-dark-blue: #000080;
+
+  --clr-gray: #f5f5f5;
+  --clr-light-gray: #fafafa;
+  /* ihii */
+  --clr-secondary-link: #606060;
+
+  --clr-dark-gray: #ccc;
+  /* jopko */
+  --clr-gray-light: #ccc;
+
+  --clr-link: #1a9cb7;
+  --clr-light_link: #fbfdfe;
+
+  --clr-dark_gray: #606060;
+
+  /* --clr-secondary-light: #2a2a2a; */
+  --clr-secondary-main: #424242;
+
+  --clr-secondary-input: #000;
+
+  /* font sizes */
+  --normal-xxl-font: 48px;
+  --normal-xl-font: 30px;
+  --normal-bg-font: 22px;
+  --normal-med-font: 18px;
+  --normal-font: 16px;
+  --normal-sm-font: 14px;
+  --normal-xsm-font: 12px;
+}
+
+body {
+  padding: 0;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+  background: var(--clr-gray);
+}
+
+/* heading constant font family */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Constant styles */
+section {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.success_clr {
+  color: var(--clr-green);
+}
+.bolder {
+  font-weight: 600;
+}
+
+.align-center {
+  text-align: center;
+}
+.align-end {
+  text-align: end;
+}
